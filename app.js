@@ -20,6 +20,21 @@
 // Array destructuring
 
 
+let numbers = [1,2,3,4,[6,7]];
+
+let[,,,,[a,b]]=numbers
+console.log(a,b)
+
+
+let c=3;
+let d=5;
+
+[d,c]=[c,d]
+
+console.log(d)
+
+
+
 
 
 
