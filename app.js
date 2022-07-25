@@ -1,16 +1,11 @@
+// Rest operator
 
-// spread operator
+// Rest parameter must be last formal parameter 
 
-let numbers=[1,2,3,4];
-let a=[...numbers];
-
-let newNumber=[...numbers,5,6,7,8];
-
-numbers.push(7);
-
-console.log(numbers);
-console.log(a);
+function restApi(a, ...param){
+    console.log(param)
+    console.log(a)
+}
 
 
-
-
+restApi(1,2,3,4,5)
